@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Meta search</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../css/offline.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <div class="video-bg">
+    <video width="320" height="240" autoplay loop muted>
+      <source src="https://assets.codepen.io/3364143/7btrrd.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"
+      stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+    </svg>
+  </div>
+  <div id="vueapp" class="app">
+    <div class="header">
+      <a href="./index.html"><button class="btn-search">back</button></a>
+      <button class="btn-search" @click="getoffline">get list</button>
+    </div>
+    <div class="wrapper">
+
+      <div class="main-container">
+        <div class="main-header">
+
+          <!-- here type answer google yandex bing -->
+
+        </div>
+        <div class="content-wrapper">
+
+          <div class="content-section">
+
+
+            <ul>
+              <li class="offline-answers" v-for="item in offline[0]">
+              
+               <button  class="offline-buttons" @click="getofflinesite(item.title)">
+                <p class="title-answer">Searched: {{item.query}}</p>
+                <p class="title-answer">Found: {{item.title}}</p>
+                <p class="title-answer">Analysis:{{item.analysis}}</p>
+                <p class="title-answer">Hyperlinks in page: {{item.counta}}</p>
+               </button>
+    
+              </li>
+            </ul>
+
+            <div class="offline"   v-if="sites[0]" v-html="sites[0]"></div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="overlay-app"></div>
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="../src/history.js"></script>
+
+</body>
+
+</html>
