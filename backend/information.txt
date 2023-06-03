@@ -1,9 +1,3 @@
-conda env remove -n ENV_NAME
-
-export FLASK_APP=main
-FLASK_ENV=development
-flask run
-
 
 keys
 first accaunt cc45b19eeb81e95c0e680af7239bc5fa88e5a42276e94badb46fa6d7098d7ab2
@@ -14,46 +8,4 @@ Muzaffar accaunt 8982c2887fc3fab30631c9804eacbeea7eefb2a9dceeecb8b02a5dcdcc074c2
 
 
 
-Сайти для ознакомление темой 
-
-links 
-
-What Is a Metasearch Engine? How You Can Use Them to Your Advantage
-https://www.semrush.com/blog/metasearch-engine/
-
-Relevance, Ranking and Search
-https://medium.com/@mayurbhangale/relevance-ranking-and-search-a98b35ebc7b3#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjhlMGFjZjg5MWUwOTAwOTFlZjFhNWU3ZTY0YmFiMjgwZmQxNDQ3ZmEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NzI2NjQxNDQsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExMTI1MTMxMTg2NzExMjAyNjk3OSIsImVtYWlsIjoiaXNtYXRpbGFldm11emFmZmFyNkBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6Ik11emFmZmFyIElzbWF0aWxsYXlldiIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BRWRGVHA3ZDU0cUF6c05nbzBsWEwyOVZRRExhSHljM0t0d2RMUnhHUFFBZE5nPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11emFmZmFyIiwiZmFtaWx5X25hbWUiOiJJc21hdGlsbGF5ZXYiLCJpYXQiOjE2NzI2NjQ0NDQsImV4cCI6MTY3MjY2ODA0NCwianRpIjoiYzkzNGI5MTI4ZWIwYmE2YzcwZjgwZTljNGJhNGE5NWI4MDViODBlMSJ9.ZNE6C2skoLwUXZsxxFUfsNPxe9CmSBrJXObDAoBAI0ugk-9c2jkivIujhXQvRc0XtHf7mWIYIDqVWF9rUVDL4T-xD0hosh394t0RQyrmK1kEYnKC3AetAlhqER_VkU5KJvWZalq_qmYpovsxagtvNORNoA9QRDVMfI2_sr58q4h3JM3BYmSvoBVokri1GDWMMFHBEt-0OAl9vezErVmykKSbnwVnc8cA8f-Z7KNg-7N5SjqGSSRl-fdZGvcQLGXGM3IzaZeM_6fkodnn7LZ_RyJb0cRbZrWFy6VN306EOnKRJemTm_NGzGV6m8XQDAeekfIyHxU2cFGIvu5x-K8r6Q
-
-
-Okapi BM25
-https://en.wikipedia.org/wiki/Okapi_BM25
-
-
-Vector space model
-https://en.wikipedia.org/wiki/Vector_space_model
-
-
-Relevance Ranking Simplified
-https://towardsdatascience.com/relevance-ranking-simplified-e8eeea829713
-
-
-TF-IDF
-https://towardsdatascience.com/tf-idf-simplified-aba19d5f5530
-
-
-Meta Search Engine: What Is a Meta Search Engine?
-https://www.wordstream.com/meta-search-engine#:~:text=LOCALiQ-,Meta%20Search%20Engine%3A%20What%20Is%20a%20Meta%20Search%20Engine%3F,search%20engines%20they%20come%20from.
-
-
-How to Use FAISS to Build Your First Similarity Search
-https://medium.com/loopio-tech/how-to-use-faiss-to-build-your-first-similarity-search-bf0f708aa772
-
-
-
-https://spacy.io/usage/linguistic-features#named-entities
-
-
-python -m venv tutorial-env
-
-tutorial-env\Scripts\activate.bat
 
